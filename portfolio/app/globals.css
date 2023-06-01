@@ -25,3 +25,120 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.stroke {
+  animation: underlineAnimation 1s linear forwards;
+}
+
+@keyframes underlineAnimation {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  position: relative;
+}
+
+section {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  scroll-snap-align: center;
+}
+
+/* Typewriter effect 1 */
+@keyframes typing {
+  0.0000%, 33.7680% { content: ""; }
+  1.5384%, 32.2296% { content: "m"; }
+  3.0768%, 30.6912% { content: "ma"; }
+  4.6152%, 29.1528% { content: "man"; }
+  6.1536%, 27.6144% { content: "mant"; }
+  7.6920%, 26.0760% { content: "mante"; }
+  9.2304%, 24.5376% { content: "manten"; }
+  10.7688%, 22.9992% { content: "manteni"; }
+  12.3072%, 21.4608% { content: "mantenib"; }
+  13.8456%, 19.9224% { content: "mantenibl"; }
+  15.3840%, 18.3840% { content: "mantenible"; }
+
+  35.3064%, 65.9976% { content: ""; }
+  36.8448%, 64.4592% { content: "e"; }
+  38.3832%, 62.9208% { content: "es"; }
+  39.9216%, 61.3824% { content: "esc"; }
+  41.4600%, 59.8440% { content: "esca"; }
+  42.9984%, 58.3056% { content: "escal"; }
+  44.5368%, 56.7672% { content: "escala"; }
+  46.0752%, 55.2288% { content: "escalab"; }
+  47.6136%, 53.6904% { content: "escalabl"; }
+  49.1520%, 52.1520% { content: "escalable"; }
+
+  67.5360%, 98.2272% { content: ""; }
+  69.0744%, 96.6888% { content: "t"; }
+  70.6128%, 95.1504% { content: "te"; }
+  72.1512%, 93.6120% { content: "tes"; }
+  73.6896%, 92.0736% { content: "test"; }
+  75.2280%, 90.5352% { content: "teste"; }
+  76.7664%, 88.9968% { content: "testea"; }
+  78.3048%, 87.4584% { content: "testeab"; }
+  79.8432%, 85.9200% { content: "testeabl"; }
+  81.3816%, 84.3816% { content: "testeable"; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+  
+  @keyframes sequencePopup {
+    0%, 100% { content: "mantenible"; }
+    33% { content: "escalable"; }
+    66% { content: "testeable"; }
+  }
+
+  .typewriter::before {
+    content: "mantenible";
+    animation: sequencePopup 12s linear infinite;
+  }
+}
+
+/**/
