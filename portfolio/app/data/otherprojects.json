@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "WorkItOut!",
+        "description": "Proyecto móvil que consiste en una aplicación de gestión de entrenamientos físicos en el que se da la posibilidad al usuario de gestionar rutinas, ejercicios y guardar un registro con su progreso. Utiliza una arquitectura MVVM, Cloud Firestore como base de datos y está escrito en el lenguaje Kotlin para Android.",
+        "code": "https://github.com/Ditochoza/WorkItOut",
+        "tecnologies": [
+            "Kotlin",
+            "Firebase",
+            "Youtube API"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Metroid",
+        "description": "Proyecto web que utiliza la libreria QuintusJS para el desarrollo de un videojuego similar a Metroid.",
+        "code": "https://github.com/pemaga12/Metroid",
+        "deployment": "https://pemaga12.github.io/Metroid/",
+        "tecnologies": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "QuintusJS"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Complutacto",
+        "description": "Aplicación de escritorio en Java para la gestión de empleados y clientes de una empresa de telecomunicaciones. El proyecto utiliza una arquitectura multicapa (integración, negocio, presentación) y emplea algunos patrones como Singleton, Data Access Object, Transfer o Application Service.",
+        "code": "https://github.com/Ramxnchv/IS2---Complutacto",
+        "tecnologies": [
+            "Java"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Foro 404",
+        "description": "Proyecto web utilizando NodeJS y en concreto el framework Express de Javascript para la realización de un foro de preguntas y respuestas sobre programación.",
+        "code": "https://github.com/Ramxnchv/AW---Foro-404",
+        "tecnologies": [
+            "ExpressJS",
+            "NodeJS",
+            "MySQL",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Gestor de Tareas",
+        "description": "Proyecto web que utiliza un servidor con ExpressJS que consiste en un gestor básico de tareas con operaciones CRUD (añadir, modificar, eliminar). Además incluye alguna funcionalidad de frontend hecha con JQuery.",
+        "code": "https://github.com/Ramxnchv/AW---Gestor-de-Tareas",
+        "tecnologies": [
+            "ExpressJS",
+            "NodeJS",
+            "MySQL",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "MsPacMan vs Ghosts",
+        "description": "Proyecto de Inteligencia Artificial para el videojuego MsPacMan vs Ghosts utilizando algoritmos simples, máquinas de estados, reglas, lógica difusa y una última versión utilizando razonamiento basado en casos (CBR).",
+        "code": "https://github.com/Ramxnchv/ICI",
+        "tecnologies": [
+            "Java"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Simulador de Leyes Físicas",
+        "description": "Proyecto en Java sobre Simulador de Leyes Físicas sobre Cuerpos. Implementado con Factorías, Builders, Genéricos, Colecciones, Swing (Interfaz Gráfica de Usuario) y Threads.",
+        "code": "https://github.com/Ramxnchv/TP2",
+        "tecnologies": [
+            "Java"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Plantas vs Zombies",
+        "description": "Proyecto en Java sobre videojuego Plants vs Zombies, trabajando Objetos, Herencia, Polimorfismo, Excepciones y temas básicos de Programación Orientada a Objetos.",
+        "code": "https://github.com/Ramxnchv/TP",
+        "tecnologies": [
+            "Java"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Tortugas Robóticas",
+        "description": "Proyecto en C++ sobre videojuego Robot Turtles con Programación Modular, Algoritmos de Ordenación, Búsqueda y Recursividad.",
+        "code": "https://github.com/Ramxnchv/FP",
+        "tecnologies": [
+            "Java"
+        ]
+    }
+]

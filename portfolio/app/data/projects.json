@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "SoyOs",
+        "description": "Desarrollo de la página web soyos.es para un cliente consistente en un e-commerce de venta de cursos online y un blog para publicar novedades, entre las funcionalidades más destacables. Este proyecto lo desarrollé por mi cuenta para aprender el framework Next.js.",
+        "deployment": "https://github.com/Ramxnchv/soyOs",
+        "tecnologies": [
+            "React",
+            "NextJS",
+            "Typescript",
+            "TailwindCSS",
+            "Cypress",
+            "Supabase",
+            "Sanity",
+            "Swell"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "FilmAdmin",
+        "description": "Proyecto web basado en el desarrollo de una aplicación de gestión y venta de entradas para un cine (usuarios, películas, cines, salas, sesiones y entradas) en el que se desarrolla un servidor con el famoso framework de backend Spring Boot y utilizando HTML, CSS, Bootstrap, JavaScript y un lenguaje de plantillas como es Thymeleaf para la parte frontend. Además se utilizan conceptos como Spring Security para los filtros de seguridad, testing con Karate UI, uso de Hibernate para el modelo, Websockets mediante STOMP para el desarrollo del chat de atención al cliente y consultas a la API de IMDB.",
+        "code": "https://github.com/Ramxnchv/FilmAdmin",
+        "deployment": "https://filmadmin.ramonros.dev/",
+        "tecnologies": [
+            "Java",
+            "Spring Boot",
+            "Bootstrap",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Real Jardin Botanico App",
+        "description": "Este trabajo tiene como objetivo proporcionar a los visitantes del Real Jardín Botánico de Madrid una mejor experiencia durante el recorrido dentro de las instalaciones, y a su vez facilitar una herramienta donde consultar sus últimas novedades e información relativa a la gran colección de plantas que contiene. El proyecto se desarrolló conjuntamente con el Real Jardín Botánico de Madrid como cliente final e incluye una aplicación web hecha en React para la gestión de contenido de la aplicación móvil (eventos, plantas e itinerarios) y una aplicación móvil hecha con React Native que hacen uso de APIs como Mapbox, Plant.id, Google Translate y Google Maps. ",
+        "code": "https://github.com/vicvelaz/TFG-Jardin-Botanico",
+        "deployment": "https://play.google.com/store/apps/details?id=com.realjardinbotanicoapp",
+        "tecnologies": [
+            "React",
+            "React Native",
+            "Firebase",
+            "Kotlin",
+            "Mapbox",
+            "Plant.id",
+            "Google Translate",
+            "Google Maps"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "El Ultimo Tangle",
+        "description": "Desarrollo, mantenimiento y gestión de contenido de la página web: https://elultimotangle.es",
+        "deployment": "https://elultimotangle.es",
+        "tecnologies": [
+            "Wordpress",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }
+]

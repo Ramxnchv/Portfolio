@@ -11,15 +11,13 @@ import ExperiencePage from './components/ExperiencePage'
 
 export default function Home() {
   return (
-    <div className='flex justify-center overflow-hidden'>
+    <div className='flex justify-center overflow-hidden selection:bg-darkblue selection:text-white'>
       <aside className='fixed left-16 z-20 py-16'>
         <Navbar />
       </aside>
-      <main className="flex min-h-screen flex-col items-center sm:px-20 sm:pl-64 scroll-container">
+      <main className="container scroll-container flex min-h-screen flex-col items-center sm:px-20 sm:pl-64">
         <MainPage />
         <AboutPage />
-        <ExperiencePage />
-        <EducationPage />
         <ProjectsPage />
         <CoursesPage />
         <ContactPage />
