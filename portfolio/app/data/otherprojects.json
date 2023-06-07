@@ -4,6 +4,8 @@
         "name": "WorkItOut!",
         "description": "Proyecto móvil que consiste en una aplicación de gestión de entrenamientos físicos en el que se da la posibilidad al usuario de gestionar rutinas, ejercicios y guardar un registro con su progreso. Utiliza una arquitectura MVVM, Cloud Firestore como base de datos y está escrito en el lenguaje Kotlin para Android.",
         "code": "https://github.com/Ditochoza/WorkItOut",
+        "image": "workitout.webp",
+        "imageType": "mobile",
         "tecnologies": [
             "Kotlin",
             "Firebase",
@@ -14,6 +16,8 @@
         "id": 2,
         "name": "Metroid",
         "description": "Proyecto web que utiliza la libreria QuintusJS para el desarrollo de un videojuego similar a Metroid.",
+        "image": "metroid.webp",
+        "imageType": "desktop",
         "code": "https://github.com/pemaga12/Metroid",
         "deployment": "https://pemaga12.github.io/Metroid/",
         "tecnologies": [
@@ -27,6 +31,8 @@
         "id": 3,
         "name": "Complutacto",
         "description": "Aplicación de escritorio en Java para la gestión de empleados y clientes de una empresa de telecomunicaciones. El proyecto utiliza una arquitectura multicapa (integración, negocio, presentación) y emplea algunos patrones como Singleton, Data Access Object, Transfer o Application Service.",
+        "image": "complutacto.webp",
+        "imageType": "desktop",
         "code": "https://github.com/Ramxnchv/IS2---Complutacto",
         "tecnologies": [
             "Java"
@@ -37,6 +43,8 @@
         "name": "Foro 404",
         "description": "Proyecto web utilizando NodeJS y en concreto el framework Express de Javascript para la realización de un foro de preguntas y respuestas sobre programación.",
         "code": "https://github.com/Ramxnchv/AW---Foro-404",
+        "image": "404.webp",
+        "imageType": "desktop",
         "tecnologies": [
             "ExpressJS",
             "NodeJS",
@@ -51,6 +59,8 @@
         "name": "Gestor de Tareas",
         "description": "Proyecto web que utiliza un servidor con ExpressJS que consiste en un gestor básico de tareas con operaciones CRUD (añadir, modificar, eliminar). Además incluye alguna funcionalidad de frontend hecha con JQuery.",
         "code": "https://github.com/Ramxnchv/AW---Gestor-de-Tareas",
+        "image": "tareas.webp",
+        "imageType": "desktop",
         "tecnologies": [
             "ExpressJS",
             "NodeJS",
@@ -64,6 +74,8 @@
     {
         "id": 6,
         "name": "MsPacMan vs Ghosts",
+        "image": "mspacmanvsghosts.webp",
+        "imageType": "desktop",
         "description": "Proyecto de Inteligencia Artificial para el videojuego MsPacMan vs Ghosts utilizando algoritmos simples, máquinas de estados, reglas, lógica difusa y una última versión utilizando razonamiento basado en casos (CBR).",
         "code": "https://github.com/Ramxnchv/ICI",
         "tecnologies": [
