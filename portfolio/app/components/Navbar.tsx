@@ -4,7 +4,7 @@ import NavLink from './NavLink'
 
 export default function Navbar() {
     return (
-        <div className="h-full pl-16 pr-16 py-16 sm:pr-0 overflow-y-auto bg-black">
+        <div className="h-full pl-16 pr-16 py-8 lg:py-16 sm:pr-0 overflow-y-auto bg-black">
             <a href='#main'>
                 <h1 className='text-white flex items-center font-extrabold text-xl sm:text-2xl lg:text-3xl tracking-tight text-center'>
                     Ramón Rosa

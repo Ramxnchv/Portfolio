@@ -45,13 +45,13 @@ export default async function ProjectsPage() {
 
     return (
         <section className="flex flex-col justify-between overflow-hidden items-center" id="projects">
-            <div className='flex flex-col items-center justify-center gap-10 lg:gap-20 mt-16 lg:mt-20'>
+            <div className='flex flex-col items-center h-screen justify-around'>
                 <h1 className='text-white font-extrabold text-4xl sm:text-5xl lg:text-5xl tracking-tight'>
                     Mis Proyectos
                 </h1>
                 <div className="flex">
                     {projects.map((project: Project) => (
-                        <div key={project.id} className="card bg-cover" style={{ backgroundImage: `url(${project.image})` }}>
+                        <div key={project.id} className="card bg-cover h-72 shrink" style={{ backgroundImage: `url(${project.image})` }}>
                             {/* <h3 className="title">{project.name}</h3> */}
                         </div>
                     ))}

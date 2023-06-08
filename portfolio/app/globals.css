@@ -138,7 +138,7 @@ section {
 
 .card {
   display: flex;
-  height: 280px;
+ 
   width: 200px;
   background-color: #17141d;
   border-radius: 10px;

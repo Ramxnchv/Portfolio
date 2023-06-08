@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function AboutPage() {
     return (
         <section className="flex flex-col justify-between items-center" id="about">
-            <div className='flex flex-col items-center justify-center gap-10 lg:gap-20 mt-16 lg:mt-20'>
+            <div className='flex flex-col items-center justify-center gap-10 lg:gap-20 mt-8 lg:mt-20'>
                 <h1 className='text-white font-extrabold text-4xl sm:text-5xl lg:text-5xl tracking-tight'>
                     Sobre mí
                 </h1>
@@ -15,7 +15,7 @@ export default function AboutPage() {
                             <video src="programming.mp4" autoPlay={true} loop={true}></video>
                         </div>
                     </div>
-                    <div className='flex flex-col gap-5 lg:w-8/12 xl:w-6/12 text-lg px-10 sm:px-2'>
+                    <div className='flex flex-col gap-5 lg:w-8/12 xl:w-6/12 text-lg px-10 sm:px-2 h-[80vh] lg:h-fit overflow-y-auto'>
                         <p>
                             Soy graduado en Ingeniería del Software con aproximadamente 1 año de experiencia laboral como desarrollador web.
                             He trabajado en múltiples proyectos, tanto universitarios en equipos colaborativos como profesionales por cuenta propia,

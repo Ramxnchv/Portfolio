@@ -23,7 +23,7 @@ export default async function CoursesPage() {
 
     return (
         <section id="courses" className="flex flex-col justify-between items-center">
-            <div className='flex flex-col items-center justify-center gap-10 sm:gap-16 mt-16 sm:mt-16'>
+            <div className='flex flex-col items-center h-screen justify-around '>
                 <h1 className='text-white font-extrabold text-4xl sm:text-5xl lg:text-5xl tracking-tight '>
                     Certificaciones
                 </h1>
