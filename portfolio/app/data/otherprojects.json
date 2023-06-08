@@ -85,6 +85,8 @@
     {
         "id": 7,
         "name": "Simulador de Leyes Físicas",
+        "image": "simuladorleyes.webp",
+        "imageType": "desktop",
         "description": "Proyecto en Java sobre Simulador de Leyes Físicas sobre Cuerpos. Implementado con Factorías, Builders, Genéricos, Colecciones, Swing (Interfaz Gráfica de Usuario) y Threads.",
         "code": "https://github.com/Ramxnchv/TP2",
         "tecnologies": [
@@ -94,6 +96,8 @@
     {
         "id": 8,
         "name": "Plantas vs Zombies",
+        "image": "plantsvszombies.webp",
+        "imageType": "desktop",
         "description": "Proyecto en Java sobre videojuego Plants vs Zombies, trabajando Objetos, Herencia, Polimorfismo, Excepciones y temas básicos de Programación Orientada a Objetos.",
         "code": "https://github.com/Ramxnchv/TP",
         "tecnologies": [

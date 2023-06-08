@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Principios SOLID aplicados",
+        "certifier": "CodelyTV",
+        "date": "25 de octubre de 2022",
+        "link": "https://drive.google.com/file/d/1WIOHdYimEWi6jrbY3-0aOhT-LHSTqxbG/view"
+    },
+    {
+        "id": 2,
+        "name": "Arquitectura Hexagonal",
+        "certifier": "CodelyTV",
+        "date": "03 de noviembre de 2022",
+        "link": "https://drive.google.com/file/d/1VzFCJbYQvWiwcnmHX7k20y1n2Z-aOegQ/view"
+    },
+    {
+        "id": 3,
+        "name": "Testing: Introducción y buenas prácticas",
+        "certifier": "CodelyTV",
+        "date": "12 de noviembre de 2022",
+        "link": "https://drive.google.com/file/d/1EN1-Ku9eDFx2BifGIsPjJcOgfa7nhOll/view"
+    },
+    {
+        "id": 4,
+        "name": "CQRS: Command Query Responsibility Segregation",
+        "certifier": "CodelyTV",
+        "date": "16 de noviembre de 2022",
+        "link": "https://drive.google.com/file/d/14mGNd0alIWmTk5tRlQX0dMGydCFH3x19/view"
+    },
+    {
+        "id": 5,
+        "name": "Comunicación entre microservicios: Event-Driven Architecture",
+        "certifier": "CodelyTV",
+        "date": "21 de noviembre de 2022",
+        "link": "https://drive.google.com/file/d/1vv03K7Cy1uMSniEfBq9_7gz0UtBtn3Lf/view"
+    },
+    {
+        "id": 6,
+        "name": "Domain-Driven Design - DDD Aplicado",
+        "certifier": "CodelyTV",
+        "date": "27 de noviembre de 2022",
+        "link": "https://drive.google.com/file/d/1qdKU4NaJtZUWwViPztp1U0kVTnQk404K/view"
+    },
+    {
+        "id": 7,
+        "name": "DDD en Typescript: Modelado y arquitectura",
+        "certifier": "CodelyTV",
+        "date": "12 de diciembre de 2022",
+        "link": "https://drive.google.com/file/d/1e1B-MadeeRZA1knu5p3WJZ2DvSFtN6ev/view"
+    }
+]

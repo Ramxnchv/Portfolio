@@ -8,13 +8,13 @@ export default function MainPage() {
     return (
         <section className="flex flex-col justify-evenly items-center" id='main'>
             <div className='flex flex-col sm:flex-row items-center justify-center gap-10'>
-                <Image src={fotoperfil} alt={'Mi foto'} className='rounded-md' height={185} />
+                <Image src={fotoperfil} alt={'Mi foto'} className='rounded-md' height={185} priority />
                 <div>
-                    <h1 className='bg-clip-text text-transparent text-center lg:text-start bg-gradient-to-br from-blue-700 from-10% to-80% to-rose-600 font-extrabold text-5xl sm:text-7xl lg:text-7xl tracking-tight'>
+                    <h1 className='bg-clip-text text-transparent text-center lg:text-start bg-gradient-to-b from-40% from-white to-gray-400 font-extrabold text-5xl sm:text-7xl lg:text-7xl tracking-tight'>
                         Ramón Rosa
                     </h1>
                     <div className='flex text-2xl sm:text-2xl w-fit'>
-                        <p className=' text-[#832161] max-w-3xl font-bold tracking-widest'>
+                        <p className=' text-gray-400 max-w-3xl font-bold tracking-widest'>
                             <span>Desarrollador Full-Stack </span>
                         </p>
                     </div>

@@ -215,7 +215,7 @@ div.carousel {
   perspective: 600px;
   --items: 9;
   --middle: 5;
-  --position: 1;
+  --position: 2;
 }
 
 div.item {

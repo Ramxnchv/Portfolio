@@ -1,17 +1,17 @@
-import Image from 'next/image'
-import fotoperfil from '../../public/fotoperfil.jpg'
+'use client'
+
 import NavLink from './NavLink'
 
 export default function Navbar() {
     return (
-        <div className='hidden sm:flex sm:flex-col sm:w-48 sm:z-10'>
+        <div className="h-full pl-16 pr-16 py-16 sm:pr-0 overflow-y-auto bg-black">
             <a href='#main'>
-                <h1 className='text-slate-900 flex items-center font-extrabold text-xl sm:text-2xl lg:text-3xl tracking-tight text-center dark:text-white'>
+                <h1 className='text-white flex items-center font-extrabold text-xl sm:text-2xl lg:text-3xl tracking-tight text-center'>
                     Ramón Rosa
                 </h1>
                 <div className='flex text-sm'>
                     <span>&gt;</span>
-                    <p className='ml-2 text-slate-600 max-w-3xl mx-auto dark:text-slate-400'>
+                    <p className='ml-2 text-slate-400 max-w-3xl mx-auto'>
                         <span>Desarrollador Full-Stack </span>
                         <span className='animate-ping'>_</span>
                     </p>

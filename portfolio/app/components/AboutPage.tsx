@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function AboutPage() {
     return (
         <section className="flex flex-col justify-between items-center" id="about">
-            <div className='flex flex-col items-center justify-center gap-10 lg:gap-20 mt-10 lg:mt-20'>
-                <h1 className='text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-5xl tracking-tight dark:text-white'>
+            <div className='flex flex-col items-center justify-center gap-10 lg:gap-20 mt-16 lg:mt-20'>
+                <h1 className='text-white font-extrabold text-4xl sm:text-5xl lg:text-5xl tracking-tight'>
                     Sobre mí
                 </h1>
                 <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:gap-16 xl:gap-20">
