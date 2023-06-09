@@ -30,7 +30,7 @@
     },
     {
         "id": 3,
-        "name": "Real Jardin Botanico App",
+        "name": "Real Jardín Botánico App",
         "description": "Este trabajo tiene como objetivo proporcionar a los visitantes del Real Jardín Botánico de Madrid una mejor experiencia durante el recorrido dentro de las instalaciones, y a su vez facilitar una herramienta donde consultar sus últimas novedades e información relativa a la gran colección de plantas que contiene. El proyecto se desarrolló conjuntamente con el Real Jardín Botánico de Madrid como cliente final e incluye una aplicación web hecha en React para la gestión de contenido de la aplicación móvil (eventos, plantas e itinerarios) y una aplicación móvil hecha con React Native que hacen uso de APIs como Mapbox, Plant.id, Google Translate y Google Maps. ",
         "image": "rjbapp.webp",
         "code": "https://github.com/vicvelaz/TFG-Jardin-Botanico",

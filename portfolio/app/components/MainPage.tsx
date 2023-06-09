@@ -36,7 +36,7 @@ export default function MainPage() {
                     <EnvelopeIcon className='w-16 h-16 text-[#F0EFF4]' />
                 </Link>
                 <p className='hidden md:block text-5xl'>·</p>
-                <button className='border border-white rounded-full px-5 py-3 mb-10 sm:mb-0 hover:bg-white hover:text-black hover:font-bold'>Descargar CV</button>
+                <a href={'RamonRosaPerezCV.pdf'} target='_blank' rel="noopener noreferrer" className='border border-white rounded-full px-5 py-3 mb-10 sm:mb-0 hover:bg-white hover:text-black hover:font-bold'>Descargar CV</a>
             </div>
         </section>
     )

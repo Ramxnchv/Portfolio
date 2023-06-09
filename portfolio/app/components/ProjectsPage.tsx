@@ -1,6 +1,8 @@
 import OtherProject from "./OtherProject"
 import path from "path";
 import { promises as fs } from 'fs';
+import { CodeBracketIcon } from "@heroicons/react/24/solid";
+import { DevicePhoneMobileIcon } from "@heroicons/react/24/outline";
 
 interface Project {
     id: number;
@@ -51,8 +53,30 @@ export default async function ProjectsPage() {
                 </h1>
                 <div className="flex">
                     {projects.map((project: Project) => (
-                        <div key={project.id} className="card bg-cover h-72 shrink" style={{ backgroundImage: `url(${project.image})` }}>
-                            {/* <h3 className="title">{project.name}</h3> */}
+                        <div key={project.id} style={{ backgroundImage: `url(${project.image})` }} className="card bg-cover h-72">
+                            <div className="hidden-child flex flex-col gap-2 w-full items-center justify-evenly bg-black bg-opacity-70">
+                                <h3 className="text-center font-bold tracking-tight [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] px-3">{project.name}</h3>
+                                <ul className="grid grid-cols-2 italic">
+                                    {project.tecnologies.map((tecnology: string) => (
+                                        <li key={tecnology} className="text-center text-sm text-gray-200">{tecnology}</li>
+                                    ))}
+                                </ul>
+                                <div className="flex flex-col gap-2">
+                                    <div>
+                                        {project.deployment && <a className="bg-gray-600 p-1 px-2 rounded-md text-sm flex gap-2" href={project.deployment} target='_blank' rel="noopener noreferrer">
+                                            <span>Ver proyecto</span>
+                                            <DevicePhoneMobileIcon className="w-5 h-5 text-white"></DevicePhoneMobileIcon>
+                                        </a>}
+                                    </div>
+                                    <div>
+                                        {project.code && <a className="bg-gray-900 p-1 px-2 rounded-md text-sm flex gap-2" href={project.code} target='_blank' rel="noopener noreferrer">
+                                            <span>Ver código</span>
+                                            <CodeBracketIcon className="w-5 h-5 text-white ml-auto"></CodeBracketIcon>
+                                        </a>}
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     ))}
                 </div>

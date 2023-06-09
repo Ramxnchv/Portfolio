@@ -49,9 +49,7 @@
             "ExpressJS",
             "NodeJS",
             "MySQL",
-            "HTML",
-            "CSS",
-            "JavaScript"
+            "jQuery"
         ]
     },
     {
@@ -65,9 +63,6 @@
             "ExpressJS",
             "NodeJS",
             "MySQL",
-            "HTML",
-            "CSS",
-            "JavaScript",
             "jQuery"
         ]
     },
@@ -110,7 +105,7 @@
         "description": "Proyecto en C++ sobre videojuego Robot Turtles con Programación Modular, Algoritmos de Ordenación, Búsqueda y Recursividad.",
         "code": "https://github.com/Ramxnchv/FP",
         "tecnologies": [
-            "Java"
+            "C++"
         ]
     }
 ]
