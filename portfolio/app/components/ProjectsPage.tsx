@@ -57,7 +57,7 @@ export default async function ProjectsPage() {
                     ))}
                 </div>
                 <h3 className="text-2xl">Otros proyectos</h3>
-                <div className="carousel" id="carousel">
+                <div className="carousel mb-10 sm:mb-0" id="carousel">
                     {otherprojects.map((project: OtherProjectData) => (
                         <OtherProject key={project.id} project={project} />
                     ))}

@@ -15,7 +15,7 @@ export default function AboutPage() {
                             <video src="programming.mp4" autoPlay={true} loop={true}></video>
                         </div>
                     </div>
-                    <div className='flex flex-col gap-5 lg:w-8/12 xl:w-6/12 text-lg px-10 sm:px-2 h-[80vh] lg:h-fit overflow-y-auto'>
+                    <div className='flex flex-col gap-5 lg:w-8/12 xl:w-6/12 text-lg px-10 sm:px-2 h-[80vh] lg:h-fit mb-10 sm:mb-0 overflow-y-auto'>
                         <p>
                             Soy graduado en Ingeniería del Software con aproximadamente 1 año de experiencia laboral como desarrollador web.
                             He trabajado en múltiples proyectos, tanto universitarios en equipos colaborativos como profesionales por cuenta propia,
