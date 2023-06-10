@@ -50,7 +50,7 @@
         "id": 4,
         "name": "SoyOs",
         "description": "Desarrollo de la página web soyos.es para un cliente consistente en un e-commerce de venta de cursos online y un blog para publicar novedades, entre las funcionalidades más destacables. Este proyecto lo desarrollé por mi cuenta para aprender el framework Next.js.",
-        "deployment": "https://github.com/Ramxnchv/soyOs",
+        "deployment": "https://soyos.es",
         "image": "soyos.webp",
         "tecnologies": [
             "React",
