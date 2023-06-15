@@ -47,5 +47,12 @@
         "certifier": "CodelyTV",
         "date": "12 de diciembre de 2022",
         "link": "https://drive.google.com/file/d/1e1B-MadeeRZA1knu5p3WJZ2DvSFtN6ev/view"
+    },
+    {
+        "id": 8,
+        "name": "Arquitectura Hexagonal en Frontend",
+        "certifier": "CodelyTV",
+        "date": "15 de junio de 2023",
+        "link": "https://drive.google.com/file/d/11C3LlAJp5rg58VSd0a2MnUfD9T-bJcrw/view"
     }
 ]
