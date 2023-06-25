@@ -54,5 +54,12 @@
         "certifier": "CodelyTV",
         "date": "15 de junio de 2023",
         "link": "https://drive.google.com/file/d/11C3LlAJp5rg58VSd0a2MnUfD9T-bJcrw/view"
+    },
+    {
+        "id": 9,
+        "name": "DDD en Java",
+        "certifier": "CodelyTV",
+        "date": "25 de junio de 2023",
+        "link": "https://drive.google.com/file/d/1I4aNeMGN1vuF0Olc4aPmgerdZ4gv7HBJ/view"
     }
 ]
