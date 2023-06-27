@@ -27,7 +27,7 @@ export default async function CoursesPage() {
                 <h1 className='text-white font-extrabold text-4xl sm:text-5xl lg:text-5xl tracking-tight '>
                     Certificaciones
                 </h1>
-                <div className="h-[650px] lg:h-fit overflow-y-auto ">
+                <div className="h-[650px] lg:h-[750px] overflow-y-auto ">
                     <ol className="relative mx-5 border-l border-gray-200 dark:border-gray-700">
                         {certifications.map((certification: Certification) => (
                             <li key={certification.id} className="mb-6 ml-4">

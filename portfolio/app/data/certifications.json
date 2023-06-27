@@ -61,5 +61,12 @@
         "certifier": "CodelyTV",
         "date": "25 de junio de 2023",
         "link": "https://drive.google.com/file/d/1I4aNeMGN1vuF0Olc4aPmgerdZ4gv7HBJ/view"
+    },
+    {
+        "id": 10,
+        "name": "Docker: De 0 a deployment",
+        "certifier": "CodelyTV",
+        "date": "27 de junio de 2023",
+        "link": "https://drive.google.com/file/d/1pDB8r6inJJEqATqZhS67zITR3XSJJDVW/view"
     }
 ]
